@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
 class HelloWorldConfiguration extends Configuration {
   @NotNull
   @JsonProperty
-  val template = "Hello, %s"
+  val template = "Hello, "
 
   @NotNull
   @JsonProperty

@@ -13,7 +13,6 @@ class HelloWorldResource() {
 
   @GET
   @Timed
-  @Path("hello_world")
   @Produces(Array(MediaType.APPLICATION_JSON))
   def sayHello(): Response = {
     Response.ok.entity(new User("jshah", "test@test.com")).build()
